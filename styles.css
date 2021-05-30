@@ -1,2 +1,86 @@
 /*font-family: 'Saira', sans-serif;
 font-family: 'Titillium Web', sans-serif; */
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 { 
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 { 
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 200;
+}
+
+/* header & nav*/
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px -4px gray;
+    position: fixed;
+    z-index: 10;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 30px 20px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+/* main */
+
+.container {
+    width: 100%;
+    height: auto;
+    display: block;
+    /*border: 1px solid black;*/
+}
+
+.spacer {
+    width: 100%;
+    height: 116px;
+    /*background-color: yellow;*/
+}
+
+section {
+    width: 70%;
+    height: 1000px;
+    margin: 30px auto;
+    box-shadow: 0 0 4px 0 gray;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 30px 0 50px;
+}
