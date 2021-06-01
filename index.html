@@ -9,7 +9,7 @@
 
         <!-- Font import -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,400&family=Titillium+Web:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
          
         <!-- CSS links -->
         <link href="reset.css" type="text/css" rel="stylesheet">
@@ -22,17 +22,18 @@
             <h1>Kosmos Studio</h1>
             <nav>
                 <ul>
-                    <li><a href="#colors">Colors</a></li>
-                    <li><a href="#fonts">Fonts</a></li>
-                    <li><a href="#headers">Headers</a></li>
+                    <li><a class="anchor" href="#colors">Colors</a></li>
+                    <li><a class="anchor" href="#fonts">Fonts</a></li>
+                    <li><a class="anchor" href="#headers">Headers</a></li>
                 </ul>
             </nav>
         </header>
         <main>
+            <div id="colors" class="first-spacer"></div>
             <div class="container">
-                <div id="colors" class="spacer"></div>
-                <section>
+                <section id="color-section">
                     <h2>Colors</h2>
+                    <h3>Below are the main theme colors and their respective hex codes.</h3>
                     <div class="colorcard" id="cosmic-cyan">
                         <p>Cosmic Cyan</p>
                         <p>#00454E</p>
@@ -51,15 +52,35 @@
                         <p>#531C00</p>
                     </div>
                 </section>
-            </div>
-            <div class="container">
                 <div id="fonts" class="spacer"></div>
-                <section>
-                    <h2>Fonts</h2>
-                </section>
             </div>
             <div class="container">
+                <section id="fonts-section">
+                    <h2>Fonts</h2>
+                    <h3>Below are the fonts to use when creating company media.</h3>
+                    <div class="fontainer" id="titillium-web">
+                        <p class="font-title">Tittilium Web</p>
+                        <p>The quick brown fox jumps over the lazy dog.</p>
+                        <p class="bold-font">The quick brown fox jumps over the lazy dog.</p>
+                        <p class="italic-font">The quick brown fox jumps over the lazy dog.</p>
+                    </div>
+                    <div class="fontainer" id="poppins">
+                        <p class="font-title">Poppins</p>
+                        <p>The quick brown fox jumps over the lazy dog.</p>
+                        <p class="bold-font">The quick brown fox jumps over the lazy dog.</p>
+                        <p class="italic-font">The quick brown fox jumps over the lazy dog.</p>
+                    </div>
+                    <div class="fontainer" id="open-sans">
+                        <p class="font-title">Open Sans</p>
+                        <p>The quick brown fox jumps over the lazy dog.</p>
+                        <p class="bold-font">The quick brown fox jumps over the lazy dog.</p>
+                        <p class="italic-font">The quick brown fox jumps over the lazy dog.</p>
+                    </div>
+                </section>
                 <div id="headers" class="spacer"></div>
+            </div>
+            <div class="container">
+                <div class="spacer"></div>
                 <section>
                     <h2>Headers</h2>
                 </section>
